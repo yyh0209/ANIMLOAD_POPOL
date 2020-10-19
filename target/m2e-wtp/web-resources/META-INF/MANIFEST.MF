@@ -1,5 +1,9 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
 Built-By: hsyys
+=======
+Built-By: Administrator
+>>>>>>> branch 'master' of https://github.com/yyh0209/ANIMLOAD_POPOL.git
 Build-Jdk: 1.8.0_261
 Created-By: Maven Integration for Eclipse
 

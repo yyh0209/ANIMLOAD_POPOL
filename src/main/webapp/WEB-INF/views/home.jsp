@@ -5,6 +5,7 @@
 	<title>Home</title>
 </head>
 <body>
+<<<<<<< HEAD
 <div id="Container">
 	<header>
 	<div>(로고)
@@ -24,6 +25,12 @@
 	
 	</footer>
 </div>
+=======
+<h1>
+	Hello world!  
+</h1>
+
+>>>>>>> branch 'master' of https://github.com/yyh0209/ANIMLOAD_POPOL.git
 <P>  The time on the server is ${serverTime}. </P>
 </body>
 </html>

@@ -11,7 +11,11 @@
 	</appender>
 	
 	<!-- Application Loggers -->
+<<<<<<< HEAD
 	<logger name="com.mediaachive.animation">
+=======
+	<logger name="com.koreanindie.animation">
+>>>>>>> branch 'master' of https://github.com/yyh0209/ANIMLOAD_POPOL.git
 		<level value="info" />
 	</logger>
 	
