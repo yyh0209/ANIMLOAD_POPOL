@@ -6,17 +6,22 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry including="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="src/test/resources"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
@@ -26,22 +31,10 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0"/>
-	<classpathentry kind="lib" path="C:/Users/jckan/Downloads/집으로/workspace_web/lib/cos.jar"/>
-	<classpathentry kind="lib" path="C:/Users/jckan/Downloads/집으로/workspace_web/lib/gson-2.8.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/jckan/Downloads/집으로/workspace_web/lib/jstl-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/jckan/Downloads/집으로/workspace_web/lib/mysql-connector-java-8.0.21.jar"/>
-	<classpathentry kind="lib" path="C:/Users/jckan/Downloads/집으로/workspace_web/lib/ojdbc6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/jckan/Downloads/집으로/workspace_web/lib/taglibs-standard-impl-1.2.5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/jckan/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar" sourcepath="C:/Users/jckan/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
-			<attribute name="maven.groupId" value="javax.servlet"/>
-			<attribute name="maven.artifactId" value="javax.servlet-api"/>
-			<attribute name="maven.version" value="3.1.0"/>
-			<attribute name="maven.scope" value="provided"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_261"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

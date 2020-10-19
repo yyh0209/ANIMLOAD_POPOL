@@ -6,22 +6,21 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
-import com.koreait.matzip.rest.RestMapper;
-import com.koreait.matzip.rest.model.RestDMI;
-import com.koreait.matzip.rest.model.RestPARAM;
+import com.mediaachive.animation.archive.ArcMapper;
 
 public class RestInterceptor extends HandlerInterceptorAdapter{
 	
 	@Autowired
-	private RestMapper mapper;
+	private ArcMapper mapper;
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
 			throws Exception {
+		//인터셉터
 		System.out.println("rest - interceptor");
 		
-		String uri =request.getRequestURI();
+		String uri =request.getRequestURI(); //파일경로 /pro/.jsp
 		System.out.println("uri:"+uri);
-		String[] uriArr = uri.split("/"); //1,2차 주소값을 자름.
+		String[] uriArr = uri.split("/"); //1,2차 주소값을 자름. 자르면서 새 문자열을 생성함
 		
 		String[] checkKeywords = {"del","Del","upd","Upd"}; //1차주소값에 포함된 주소값을체크함.
 		//i_rest를 얻어왔다. 레코드의 pk값이 로그인 한사람이 맞는지 체크한다. 남이 쓴글에 삭제와 수정을 시도하는걸 방지함

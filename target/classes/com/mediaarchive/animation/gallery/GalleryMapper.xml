@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mediaarchive.animation.gallery.GalleryMapper">
+<!-- galleryVO를 내가 조작함.  -->
+<!-- select -->
+
+<!-- insert -->
+<!-- insGallery 갤러리작품 삽입-->
+<insert id="">
+
+</insert>
+<!-- insGalleyRecList 내가 추천하는 그림을 메인으로 내세움-->
+<insert id="">
+
+</insert>
+<!-- insGalleryPic 그림을 올림  -->
+<insert id="">
+
+</insert>
+
+<!-- update -->
+<!-- 조회수와 좋아요는 늘 갱신함. select로 보여준다. -->
+<update id="">
+
+</update>
+
+<!-- delete -->
+<delete id="">
+<!-- 내 추천작품을 삭제 -->
+<!-- 내 작품을 삭제 -->
+<!--  -->
+</delete>
+</mapper>

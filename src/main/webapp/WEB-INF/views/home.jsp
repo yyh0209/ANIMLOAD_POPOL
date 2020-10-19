@@ -5,10 +5,25 @@
 	<title>Home</title>
 </head>
 <body>
-<h1>
-	Hello world!  
-</h1>
-
+<div id="Container">
+	<header>
+	<div>(로고)
+	<div>
+		<ul>
+			<li></li>
+		</ul>
+	</div>
+	
+	
+	</div>
+	</header>
+	<section>
+	
+	</section>
+	<footer>
+	
+	</footer>
+</div>
 <P>  The time on the server is ${serverTime}. </P>
 </body>
 </html>

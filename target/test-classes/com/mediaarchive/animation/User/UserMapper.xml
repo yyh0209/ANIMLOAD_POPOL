@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mediaarchive.animation.User.UserMapper">
+	<!-- select -->
+	<select id="" parameterType="">
+	
+	</select>
+	<select id="" parameterType="">
+	
+	</select>
+<!--  -->
+<!-- insert -->
+<!-- 내 글 삽입 -->
+<insert id="" parameterType="">
+
+</insert>
+<!-- 내 댓글 삽입 -->
+<insert id="" parameterType="">
+
+</insert>
+<!-- 내 작품 삽입 -->
+<insert id="" parameterType="">
+
+</insert>
+<!-- update -->
+<update id="">
+
+</update>
+<!-- 내 댓글 수정 -->
+
+<!-- delete -->
+
+<!-- 내 사진 삭제 -->
+
+<!-- 내 프로필사진 삭제 -->
+
+<!-- 내 댓글 삭제 -->
+</mapper>
+
+
+
+
+
+
+
+
+

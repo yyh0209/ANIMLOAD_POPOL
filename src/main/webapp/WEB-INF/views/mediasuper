@@ -1,0 +1,22 @@
+create table t_user(
+i_user int(10)unsigned not null auto_increment,--키값
+user_id varchar(20) not null,--아이디
+user_pw varchar(60) not null,--비밀번호
+user_nm varchar(15) not null,--이름
+user_profile varchar(50)not null,--프로필사진
+user_cmt varchar(100)null default,--자기설명
+user_media varchar(50)not null,--파일들 유형
+user_theme varchar(50),--테마사진
+user_crtdt datetime not null,--업로드날짜
+user_upddt datetime not null--수정날짜
+);
+create table t_gallery(
+--그림파일의 키값
+--그림파일의 이름
+--그림
+--사용툴
+--장르
+--올린사람
+--방문한 사람
+--조회수
+)

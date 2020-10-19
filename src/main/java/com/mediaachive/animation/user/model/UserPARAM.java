@@ -1,6 +1,6 @@
 package com.mediaachive.animation.user.model;
 
-public class UserPARAM {
+public class UserPARAM extends UserVO {
 	private String msg;
 	private int i_rest;
 	private String proc_type;
